@@ -8,6 +8,21 @@ cld = "console.debug('$1:', $1)"
 clo = "console.log('$1:', $1)"
 cle = "console.error('$1:', $1)"
 
+[javascriptreact]
+cld = "console.debug('$1:', $1)"
+clo = "console.log('$1:', $1)"
+cle = "console.error('$1:', $1)"
+
+[typescript]
+cld = "console.debug('$1:', $1)"
+clo = "console.log('$1:', $1)"
+cle = "console.error('$1:', $1)"
+
+[typescriptreact]
+cld = "console.debug('$1:', $1)"
+clo = "console.log('$1:', $1)"
+cle = "console.error('$1:', $1)"
+
 [ruby]
 class = "class ${1:ClassName}\n  $0\nend"
 module = "module ${1:ModuleName}\n  $0\nend"
