@@ -1,0 +1,17 @@
+[elixir]
+defmo = "defmodule ${1:module} do\n  $0\nend"
+def = "def ${1:name}() do\n  $0\nend"
+defp = "defp ${1:name}() do\n  $0\nend"
+
+[javascript]
+cld = "console.debug('$1:', $1)"
+clo = "console.log('$1:', $1)"
+cle = "console.error('$1:', $1)"
+
+[ruby]
+class = "class ${1:ClassName}\n  $0\nend"
+module = "module ${1:ModuleName}\n  $0\nend"
+pry = "require 'pry'; binding.irb"
+irb = "binding.irb"
+do = "do\n  $1\nend"
+doa = "do |$1|\n  $2\nend"
